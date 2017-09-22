@@ -1,0 +1,23 @@
+{
+    "name": "Redmine2Gescom",
+    "version": "0.8.2",
+    "manifest_version": 2,
+    "description": "",
+    "background": {
+        "scripts": [
+            "js/jquery-1.12.4.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "Redmine2Gescom",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage",
+        "https://redmine-projets.smile.fr/multiredmine/user_view/monthly-activity-report"
+    ],
+    "icons": { "16": "icon16.png",
+               "48": "icon48.png",
+               "128": "icon128.png" }
+}
